@@ -1,0 +1,32 @@
+#header{
+    text-align:center;
+    font-size: x-large;
+    background-image: url("https://images.photowall.com/products/56729/tehran-iran-skyline-1.jpg?h=699&q=85") ;
+    background-size: cover;
+    height:600px;
+    text-shadow: 10px 10px 5px grey;
+}
+
+
+.top{
+    text-align: center;
+  margin-top: 50px;
+  color: blueviolet;
+}
+
+.items {
+    display:block;
+    text-align:center;
+}
+img {
+    height: 200px;
+    width: 400px;
+    border: 8px solid salmon;
+}
+#footer{
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    color: blueviolet;
+}
