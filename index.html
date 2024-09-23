@@ -26,4 +26,23 @@
         <p id="footer"> Created By <a href="https://amirhossein-3.netlify.app" target="_blank">Amir</a></p>
         
     </body>
+     <p>FOR MORE FURTHER INFORMATION CLICK <button id="button">here</button></P>
+      <script>
+        var links;
+
+
+links = ['https://www.tripadvisor.co.uk/Attractions-g293999-Activities-Tehran_Tehran_Province.html', 'https://www.britannica.com/place/Tehran', 'https://amellie.net/24-hours-in-tehran-through-the-eyes-of-locals/'];
+
+
+document.getElementById('button').addEventListener('click', (event) => {
+  links.forEach((links) => {
+    let new_ul = document.createElement('ul');
+    new_ul.style.color = '#ffcc00';
+    new_ul.innerText = links;
+
+    event.target.appendChild(new_ul);
+  });
+
+});
+</script>
 </html>
