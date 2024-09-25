@@ -30,3 +30,15 @@ img {
     font-size: large;
     color: blueviolet;
 }
+.link{
+    color: brown;
+    margin-left:150px;
+    font-style: oblique;
+    font-size: large;
+}
+#button{
+    margin-left: 130px;
+   background-color: royalblue;
+   font-size: x-large;
+   margin-top: 5px;
+}
